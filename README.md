@@ -1,9 +1,19 @@
 # Superset 资料合集
 本列表起始于2022年2月23号。 
-## 这是什么？
+
+## Superset 是什么？(介绍给完全没接触过的朋友)
+[Superset](https://github.com/apache/superset) 简单说就是一个数据可视化的工具。  
+它本身并不存储数据，它需要有一个后端数据库提供数据，可以是 PostgreSQL/MySQL/ClickHouse 等等（支持好几十种）  
+
+## Superset 长啥样？
+https://github.com/apache/superset 官方仓库里有截图，这里就不再重复贴图了。   
+
+## 这个仓库是什么？
 这里是一个列表，存放 Superset 的各种教程，文章，视频等信息。  
 （中文的资料优先，排在前面）  
 
+## 这东西对你有啥用？
+帮助你学习 Superset。  
 ## 为什么有这个表？
 初次接触：我从2022年初开始接触 Superset（这个时间点的 Superset 最新版本是 1.4.1）。   
 最终目的：用 Superset + ClickHouse 搭建一个仅供公司内部使用的数据面板。     
