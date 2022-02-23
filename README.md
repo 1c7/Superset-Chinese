@@ -7,14 +7,14 @@
 ## 为什么有这个表？
 初次接触：我从2022年初开始接触 Superset（这个时间点的 Superset 最新版本是 1.4.1）。   
 最终目的：用 Superset + ClickHouse 搭建一个仅供公司内部使用的数据面板。     
-介绍：Superset 最终会由我司内部员工（做技术的+不做技术的员工都有）用来可视化分析数据。    
+介绍：Superset 最终会由我司员工（做技术的+不做技术的都有）用来分析数据。    
 
-**遇到的问题**：
+**学习 Superset 过程中遇到的问题**：
 1. Superset 官方英文文档有不少改进空间（比如完全没有讲怎么部署到正式环境）   
 2. 中文资料搜一搜的确有，但一般都是旧版本的（比如0.37），而且比较零散（单篇文章）
 
-**问题总结**：
-1. 新手入门 Superset 找资料的时候比较费劲。
+**问题总结：**：
+1. 新手想入门 Superset，找资料比较费劲。
 
 **有哪些解决办法**：
 1. 既然官方英文文档不太行，那么我们可以自己去补（这个我已经在做了）(总结：改进英文文档)
@@ -25,8 +25,24 @@
 在全部3个解决办法里，我选`方法3`，所以做这个列表。   
 并且这里也可以直接放一些我写的总结文章。  
 
-## 内容
 
+## 重点概念
+1. Superset 中有以下名词概念：
+  1. Database
+  2. Dataset
+  3. Charts
+  4. Dashboard
+
+1. 为了在 Superset 中创建一个图表，步骤如下：
+  1. 先创建一个 Database，这一步更准确的叫法是"连接数据库"，因为你并不是在 Superset 里面保存数据库。这里可以选择连接不同的数据库，比如 PostgreSQL, MySQL, Apache Hive 等等，针对我司的需求，我们这里选择的是 ClickHouse。
+  2. 有了 Database 就去创建 Dataset，其实就是就是去数据库里选择一张表，就创建完成了。
+  3. 有了 Dataset 就可以创建 Charts，就是图表，这一步要选图表类型，比如 Pie Chart
+  4. 多个 Charts 可以组成一个 Dashboard。
+
+（这里其实应该多配一点图片，但是我暂时没空弄配图的事）  
+
+## 列表
+* [(英文) 阅读 Contributing 文档](https://github.com/apache/superset/blob/master/CONTRIBUTING.md)：点评：除了官网文档 (指 https://superset.apache.org/docs/intro )应该全部读完之外，最应该读的就是 Contributing 了，因为里面详细介绍了如果要开发的话，如何在本地搭建开发环境。对 Superset 的代码基本情况做了介绍。  
 
 
 
