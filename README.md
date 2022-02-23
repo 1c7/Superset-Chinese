@@ -25,29 +25,12 @@
 在全部3个解决办法里，我选`方法3`，所以做这个列表。   
 并且这里也可以直接放一些我写的总结文章。  
 
-
-## 重点概念
-1. Superset 中有以下名词概念：
-  - Database
-  - Dataset
-  - Charts
-  - Dashboard
-
-1. 为了在 Superset 中创建一个图表，步骤如下：
-  - 先创建一个 Database，这一步更准确的叫法是"连接数据库"，因为你并不是在 Superset 里面保存数据库。这里可以选择连接不同的数据库，比如 PostgreSQL, MySQL, Apache Hive 等等，针对我司的需求，我们这里选择的是 ClickHouse。
-  - 有了 Database 就去创建 Dataset，其实就是就是去数据库里选择一张表，就创建完成了。
-  - 有了 Dataset 就可以创建 Charts，就是图表，这一步要选图表类型，比如 Pie Chart
-  - 多个 Charts 可以组成一个 Dashboard。
-
-（这里其实应该多配一点图片，但是我暂时没空弄配图的事）  
-
-
 ## 如何参与？（添加你认为高价值的资料到列表中）
 请创建 Issue 或者直接发送  Pull Request。  
 
 ## 列表
 * [(英文) 阅读 Contributing 文档](https://github.com/apache/superset/blob/master/CONTRIBUTING.md)：点评：除了官网文档 (指 https://superset.apache.org/docs/intro )应该全部读完之外，最应该读的就是 Contributing 了，因为里面详细介绍了如果要开发的话，如何在本地搭建开发环境。对 Superset 的代码基本情况做了介绍。  
 
-
+* [(中文) Superset 基本概念](doc/1.Basic-Concept.md): 原创内容，我直接写到 doc 目录里了。 
 
 
