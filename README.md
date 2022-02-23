@@ -28,9 +28,9 @@
 ## 如何参与？（添加你认为高价值的资料到列表中）
 请创建 Issue 或者直接发送  Pull Request。  
 
-## 列表
+# 列表
 * [(英文) 阅读 Contributing 文档](https://github.com/apache/superset/blob/master/CONTRIBUTING.md)：点评：除了官网文档 (指 https://superset.apache.org/docs/intro )应该全部读完之外，最应该读的就是 Contributing 了，因为里面详细介绍了如果要开发的话，如何在本地搭建开发环境。对 Superset 的代码基本情况做了介绍。  
 
 * [(中文) Superset 基本概念](doc/1.Basic-Concept.md): 原创内容，我直接写到 doc 目录里了。 
 
-
+* [(中文) 书籍《Python+Superset：商业智能数据分析与实战》](https://item.jd.com/10044365591593.html)：我在写这个列表时搜了一下京东，只看到 Superset 有这一本中文图书，改天等我有空看了这本书之后再来写一点评价。  
