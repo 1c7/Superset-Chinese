@@ -45,4 +45,5 @@ https://github.com/apache/superset 官方仓库里有截图，这里就不再重
 
 * [(中文) Superset 基本概念](doc/1.Basic-Concept.md): 原创内容，我直接写到 doc 目录里了。 
 
-* [(中文) 书籍《Python+Superset：商业智能数据分析与实战》](https://item.jd.com/10044365591593.html)：我在写这个列表时搜了一下京东，只看到 Superset 有这一本中文图书，改天等我有空看了这本书之后再来写一点评价。  
+* [(中文) 书籍《Python+Superset：商业智能数据分析与实战》](https://item.jd.com/10044365591593.html)：我在写这个列表时搜了一下京东，只看到 Superset 有这一本中文图书，还没看过这本书，等看过了来写评价。
+
