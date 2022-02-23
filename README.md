@@ -39,6 +39,8 @@ https://github.com/apache/superset 官方仓库里有截图，这里就不再重
 请创建 Issue 或者直接发送  Pull Request。  
 
 # 列表
+（才刚开始弄，现在内容还比较少，欢迎补充）   
+
 * [(英文) 阅读 Contributing 文档](https://github.com/apache/superset/blob/master/CONTRIBUTING.md)：点评：除了官网文档 (指 https://superset.apache.org/docs/intro )应该全部读完之外，最应该读的就是 Contributing 了，因为里面详细介绍了如果要开发的话，如何在本地搭建开发环境。对 Superset 的代码基本情况做了介绍。  
 
 * [(中文) Superset 基本概念](doc/1.Basic-Concept.md): 原创内容，我直接写到 doc 目录里了。 
