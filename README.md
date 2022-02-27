@@ -56,7 +56,7 @@ https://github.com/apache/superset 官方仓库里有截图，这里就不再重
 这里把创始人 Maxime Beauchemin 的视频单独用一个区域列出来。   
 因为比起其他演讲者，创始人本人出场的视频更值得关注。   
 
-* [2019年6月17日 - 39分钟44秒 - The history and anatomy of Apache Superset](https://www.youtube.com/watch?v=24XDOkGJrEY)  
+## 视频1：[2019年6月17日 - 视频长度39分钟44秒 - 视频标题：The history and anatomy of Apache Superset](https://www.youtube.com/watch?v=24XDOkGJrEY)  
 这篇演讲主要讲：  
 * 开篇3分钟做个人介绍。
 * 3-5分钟：介绍 Superset 的用途，介绍给完全没接触过 Superset 的人。   
@@ -101,6 +101,23 @@ https://github.com/apache/superset 官方仓库里有截图，这里就不再重
 2. 当时办了一个三天的 Hackerthon，当时作者在弄 Airflow 已经9个月了，想干点别的。那时候 Airbnb 内部在搞一个叫做 Druid 的数据库，但是这个数据库没有任何的前端，作者之前在 Facebook 工作的时候，Facebook 内部有个工具叫 Scuba，用途和 Druid 类似，但是 Scuba 的体验比较好。于是作者想给 Druid 也做一个类似的前端。  
 3. 视频22分钟处有一个架构图非常有帮助，如果是完全没接触过的新手，看这个图的帮助不大，但是如果接触了一阵子 Superset 并且自己部署过了，也把官方文档都刷了一遍，再回头看这个就明白了。
 
+## 视频2：[2020年10月17日 - 视频长度40分钟2秒 - 视频标题：Apache Superset - A data visualization platform](https://www.youtube.com/watch?v=VEuBZqdSoHk)
+A presentation from ApacheCon @Home 2020   
 
+* 0-5分钟
+  * 2014年：在 Airbnb 创建了 Apache Airflow。 
+  * 2015年：也是在 Airbnb 创建了 Apache Superset。   
+  * 2019年创建了一家公司叫 Preset。是一家基于 Superset 的公司。   
+    * 提供的服务包括训练人员以及部署 Superset。
+* 5-14分钟
+  * 介绍 Superset，聊一下业界情况。 
+* 16分钟：`[SIP-53] Public Roadmap` 公开的发展路线。
+* 18分钟：社区。
+* 20分钟：Demo 终于开始了。开一个 Dashboard 但是半天加载不了。
+* 27分钟：终于开始演示了。由于屏幕的分辨率不高。
+
+**短总结**
+1. 虽然视频分辨率最高有1080p，实际上屏幕演示的部分还是非常模糊。
+2. 总体来说这个视频没啥帮助。就随便聊聊那种。
 
 
