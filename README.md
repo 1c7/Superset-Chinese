@@ -174,3 +174,18 @@ A presentation from ApacheCon @Home 2020
 4. 34分钟介绍 Semantic Layer 的部分很有用。
 
 
+## 视频4：[2017年5月9日 - 视频长度38分钟23秒 - PLOTCON 2017: Maxime Beauchemin, Superset: An open source data exploration platform](https://www.youtube.com/watch?v=NC9ehDUUu2o)
+* 0-4分钟：介绍自己的经历。
+* 5-8分钟：解释为什么要创造 Superset，背后的原因，为什么 Airbnb 选择自己造而不是买现成的。各种考量。
+* 8-11分钟：数据基础设施架构图。这个图在别的视频里出现过。
+* 12分钟：演示 Superset。
+* 17分钟：演示 Superset 里的 SQL Lab。
+  * 因为是 2017 年的视频，所以是旧的界面，和如今的 Superset 有非常大的不同。  
+* 21-24分钟：介绍 Superset 的技术栈，这张 PPT 之前也见过了。  
+* 25分钟：Security。这张 PPT 也见过了。
+* 
+
+**短总结**
+1. 这里面的大部分内容和之前的视频重复了，没有新的信息，唯一值得夸奖的是这个视频 1080p 的清晰度不错。
+前面很多视频要么只有 720p 要么 1080p 也超级模糊。  
+2. 这一个2017年的视频和前面那个2017年的视频内容几乎完全一致。
