@@ -60,6 +60,8 @@ Preset 有免费套餐。
 
 * [(中文) 书籍《Python+Superset：商业智能数据分析与实战》](https://item.jd.com/10044365591593.html)：我在写这个列表时搜了一下京东，只看到 Superset 有这一本中文图书，还没看过这本书，等看过了来写评价。
 
+* [(英文) Superset Meetup: Apache Superset Contributor Bootcamp - 视频发布时间 2021年12月3日 - 时长46分钟40秒](https://www.youtube.com/watch?v=J1xm3VoVkaU)：视频重点是如何参与 Superset 的开发。非常适合想贡献代码/文档/其他给 Superset 的开发者。  
+
 ## Superset 创始人(唯一一个创始人) Maxime Beauchemin 的演讲
 这里把创始人 Maxime Beauchemin 的视频单独用一个区域列出来。   
 因为比起其他演讲者，创始人本人出场的视频更值得关注。   
