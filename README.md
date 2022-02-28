@@ -38,10 +38,14 @@ https://github.com/apache/superset 官方仓库里有截图，这里就不再重
 ## 如何参与？（添加你认为高价值的资料到列表中）
 请创建 Issue 或者直接发送  Pull Request。  
 
-<!--
-# 技巧
-* 如果一个字段是 DateTime, 
--->
+## 关于 Preset 需要提一句
+Superset 的创始人叫 Maxime Beauchemin，  
+创建 Superset 时是2015年夏季，当时他在 Airbnb 工作。  
+它后来创建了一个公司叫 Preset (https://preset.io)  
+Preset 相当于付费版的 Superset。  
+因为自己搭建 Superset 比较麻烦，要处理各种代码细节，   
+你可以直接在 Preset 上花钱使用，不用自己搭建。   
+Preset 有免费套餐。  
 
 # 列表
 （才刚开始弄，现在内容还比较少，欢迎补充）   
