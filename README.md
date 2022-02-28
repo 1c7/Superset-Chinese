@@ -48,6 +48,9 @@ Preset 相当于付费版的 Superset。
 你可以直接在 Preset 上花钱使用，不用自己搭建。   
 Preset 有免费套餐。  
 
+专门提这件事情的意义是，在网上你会看到很多 Superset 的资料（文章和视频）作者是 Preset 公司或 Preset 在职员工。
+理解清楚 Superset 和 Preset 之间的关系，就不会感到困惑。    
+
 # 列表
 （才刚开始弄，现在内容还比较少，欢迎补充）   
 
