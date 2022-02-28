@@ -41,7 +41,8 @@ https://github.com/apache/superset 官方仓库里有截图，这里就不再重
 ## 关于 Preset 需要提一句
 Superset 的创始人叫 Maxime Beauchemin，  
 创建 Superset 时是2015年夏季，当时他在 Airbnb 工作。  
-它后来创建了一个公司叫 Preset (https://preset.io)  
+Maxime 后来创建了一个公司叫 Preset (https://preset.io)    
+
 Preset 相当于付费版的 Superset。  
 因为自己搭建 Superset 比较麻烦，要处理各种代码细节，   
 你可以直接在 Preset 上花钱使用，不用自己搭建。   
