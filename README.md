@@ -120,4 +120,52 @@ A presentation from ApacheCon @Home 2020
 1. 虽然视频分辨率最高有1080p，实际上屏幕演示的部分还是非常模糊。
 2. 这个视频没啥帮助
 
+## 视频3：[2017年6月4日 - 视频长度43分钟34秒 - How Superset and Druid Power Real-Time Analytics at Airbnb | DataEngConf SF '17](https://www.youtube.com/watch?v=W_Sp4jo1ACg)  
+
+* 0-3分钟：介绍了一下自己，目前在 Airbnb 工作，曾经在 Facebook Yahoo Ubisoft 工作过。   
+* 3分钟：提了自己之前写了一篇 Medium 文章叫 `The Rise of the Data Engineer`，有6.3万阅读量。
+* 4分钟：本次的 Agenda，列了6个重点。
+* 6-8分钟：介绍 Druid。是一个 fast, realtime, distributed column store, 开源的数据库。
+* 8分钟：介绍 Superset。
+* 9-14分钟：介绍 Airbnb 的数据平台基础设施。(Data Infrastructure) 用一张架构示意图。  
+  * 关键词：Gold Hive Cluster, Silver Hive Cluster, HDFS, Spark Cluster。
+  * 关键词：Airflow Scheduling, Presto Cluster, Airpal, Tableau。
+* 14-16分钟：介绍 Airbnb 的 Streaming（实时数据处理）
+  * 关键词: MySQL BINLOG, Kafaka, Spark Streaming, Hive, HBase, Yarn, HDFS, Datadog, Presto Cluster。
+* 21分钟：介绍 Superset。Original Vision, How it started, 以及为什么 Airbnb 要自己造这么一个 Business Intelligence Web Application 而不是直接去市面上买现成的。  
+  * 想做实时的分析，当时市面上没有能和 Druid 配合使用的工具。  
+  * 有一次 Hackerthon，其他人在尝试做 Druid 的 POC（Proof of Concept）
+  * 他想做工具来 visualize data inside Druid。  
+  * 当时他已经用过了很多 D3.js 里的图表。
+  * 过程总是很痛苦，得把自己的数据和 D3.js 的代码例子结合起来。把数据变成合适的 JSON 格式，加载数据，还得有一个静态的 HTML 文件在桌面上。根本没法分享给別人。  
+  * 非常希望有人能做一个工具，可以查询任何数据库，包括 Druid，然后只需要再做一点点工作就可以把数据做成可视化的。  
+  * 然后让这个工具也支持了 Presto。
+  * 这个工具在 Airbnb 内部越来越受欢迎，用 Tableu 的人少了，大家都来用这个工具。  
+* 24分钟: live demo。演示 Superset 的样本数据，各种图表。World's Bank Data。但是太模糊了，不是屏幕录像是直接从台下用摄像机去拍屏幕。
+* 33分钟：讲 Superset 的 Stack, Python backend 和 Javascript frontend。   
+  * Python backend
+    * Flask App Builder 
+    * Pandas
+    * SqlAlchemy
+  * Javascript frontend
+    * React / Redux
+    * ES6 / Webpack / npm
+    * d3.js
+    * nvd3.org
+  * Security 用一张 PPT (时间点 33:46) 
+* 34分钟：A Thin Semantic Layer 
+  * 就是 extra metadata for your table。  
+  * 用来表示 which field should be groupable。
+  * 用来定义 calculated columns。 
+* 34-36分钟：Caching。
+* 36分钟：What's Next。下一个阶段的计划.
+* 剩下的部分都是 QA。  
+
+**短总结**
+1. 2017年的视频，有些老了，毕竟现在2022年了。  
+1. 视频前20分钟提了很多关键词，只适合有大数据工作经验的人观看。比如 Hive, HBase, Spark, HDFS 等等，如果对大数据还是入门水平（比如我）只会一头雾水。大部分观众可以跳过这个部分，反正看不懂。  
+2. 21分钟介绍 Superset 是什么情况下诞生的，他们当时试图解决什么问题。  
+3. 33分钟介绍前端和后端的技术栈。 
+4. 34分钟介绍 Semantic Layer 的部分很有用。
+
 
